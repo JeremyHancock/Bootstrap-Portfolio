@@ -32,7 +32,6 @@ a:hover {
     overflow: auto;
     display: block;
     background-color: white;
-    width: 960px;
     height: 420px;
     margin-top: auto;
     margin-bottom: auto;
@@ -98,81 +97,72 @@ p {
 #project1Box {
     width: 150px;
     height: 150px;
-    position: absolute;
-    left: 30px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: grey;
 }
 #project1 {
     height: 150px;
     width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
 }
 
 .projectLabel {
-    width: 100%;
+    width: 150px;
     color: white;
     background-color: teal;
     position: absolute;
     bottom: 12px;
+    text-align: center;
 }
 
 #project2Box {
     width: 150px;
     height: 150px;
-    position: absolute;
-    left: 260px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: grey;
 }
 #project2 {
     height: 150px;
-    width: 150px;   
+    width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
 }
 
 #project3Box {
     width: 150px;
     height: 150px;
-    position: absolute;
-    left: 30px;
-    bottom: 15px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: grey;
 }
 
 #project3 {
     height: 150px;
     width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
 }
 #project4Box {
     width: 150px;
     height: 150px;
-    position: absolute;
-    left: 260px;
-    bottom: 15px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: grey;
 }
 
 #project4 {
     height: 150px;
     width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
 }    
 #project5Box {
     width: 150px;
     height: 150px;
-    position: absolute;
-    left: 490px;
-    bottom: 15px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: grey;
 }
 
 #project5 {
     height: 150px;
     width: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+.spacerRow {
+    height: 20px;
 }
