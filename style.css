@@ -1,3 +1,25 @@
+body {
+    background-image: url('assets/images/white-circles.png');
+    background-color: rgb(158, 202, 202);
+    background-size: auto; 
+    background-repeat: repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.header {
+    background-color: white;
+    border-bottom: solid 2px grey;
+    width: 100%;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .btn-info {
     color: #fff;
     background-color: teal;
@@ -25,6 +47,7 @@ a:hover {
     vertical-align: middle;
     line-height: 80px;
     font-size: 24px;
+    height: 100%;
 
 }
 #content {
@@ -34,7 +57,7 @@ a:hover {
     background-color: white;
     height: 420px;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
@@ -42,6 +65,7 @@ a:hover {
     border-color: grey;
     position: relative;
     padding: 5px;
+    max-width: 75%
 }
 
 #portrait {
@@ -58,27 +82,18 @@ p {
     margin-top: -5px;
 }
 
-#footer {
+
+#footer2 {
     clear: both;
     overflow: auto;
     position: fixed; 
     bottom: 0;
     width: 100%;
-
-}
-
-#footer1 {
-    display: block;
-    background-color: rgb(8, 143, 143);
-    height: 5px;
-
-}
-
-#footer2 {
     display: block;
     background-color: grey;
     height: 40px;
-    text-align: center ;
+    text-align: center;
+    border-top: 5px solid teal;
 
 }
 
@@ -87,16 +102,16 @@ p {
     font-size: 20px;
     color: teal;
     padding: 5px;
-    width: 95%;
+    width: 100%;
     margin-bottom: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
     border-bottom: solid grey 2px;
+
 }
 
 #project1Box {
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
 }
 #project1 {
     height: 150px;
@@ -118,6 +133,8 @@ p {
 #project2Box {
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
+
 }
 #project2 {
     height: 150px;
@@ -130,6 +147,8 @@ p {
 #project3Box {
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
+
 }
 
 #project3 {
@@ -142,6 +161,8 @@ p {
 #project4Box {
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
+
 }
 
 #project4 {
@@ -154,6 +175,8 @@ p {
 #project5Box {
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
+
 }
 
 #project5 {
@@ -163,6 +186,15 @@ p {
     border-width: 1px;
     border-color: grey;
 }
-.spacerRow {
-    height: 20px;
+
+.img-thumbnail {
+    max-width: 150px;
+}
+
+.nav {
+    margin-top:22px;
+}
+
+.row {
+    margin: 0;
 }
